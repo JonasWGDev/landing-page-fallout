@@ -1,7 +1,7 @@
 
 html, body{
   background: url('../images/landing-serie-bg.jpg') no-repeat;
-  background-position: top 20%;
+  background-size: cover;
   width: 100%;
   height: 100vh;
   position: relative;
@@ -101,16 +101,39 @@ body#serie-page .menu-serie-game #link-game-page{
   color: #ffffff;
 }
 
-.buttons a{
-  width: 100px;
+.buttons {
+  display: flex;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.buttons a {
+  width: 200px;
   height: 50px;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  color: #999999;
+  background-color: #ccc;
 }
 
 .buttons a img{
-  width: 100%;
-  border: 1px solid red;
+  width: 70%;
   object-fit: cover;
-  height: 100%;
+}
+
+.bip-boy {
+  position: absolute;
+  right: 30px;
+  bottom: 0;
+}
+
+.bip-boy img {
+  width: 200px;
 }
 
 
