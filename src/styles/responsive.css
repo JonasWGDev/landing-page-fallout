@@ -1,0 +1,28 @@
+/* mobile responsive */
+@media screen and (max-width: 980px){
+  .bip-boy{
+    display: none;
+  }
+
+  .player-and-link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    & a{
+      width: 70%;
+    }
+  }
+
+  .player-and-link a{
+    margin: 20px 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .player-and-link .xbox-link,
+  .player-and-link .playstation-link,
+  .player-and-link .steam-link{
+    width: 50px;
+  }
+}
