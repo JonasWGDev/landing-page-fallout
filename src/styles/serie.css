@@ -154,6 +154,9 @@ body#serie-page .menu-serie-game #link-game-page{
 
 /* ---- footer style start ------------------------------------------------------------------------------ */
 footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: #1E1E1E;
   display: flex;
   justify-content: center;
